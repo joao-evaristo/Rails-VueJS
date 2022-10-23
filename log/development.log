@@ -1159,3 +1159,2177 @@ Skipping vite build. Watched files have not changed since the last build at 2022
 Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 4373)
 
 
+  [1m[35m (1253.2ms)[0m  [1m[35mCREATE DATABASE "vuerails_development" ENCODING = 'unicode'[0m
+  [1m[35m (1268.9ms)[0m  [1m[35mCREATE DATABASE "vuerails_test" ENCODING = 'unicode'[0m
+  [1m[35m (20.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (18.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2963435355795465600)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsuarios (20221017214137)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.8ms)[0m  [1m[35mCREATE TABLE "usuarios" ("id" bigserial primary key, "nome" character varying, "idade" integer, "telefone" text, "email" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20221017214137"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAcademia (20221017215735)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.6ms)[0m  [1m[35mCREATE TABLE "academia" ("id" bigserial primary key, "nome" character varying, "cnpj" integer, "telefone" integer, "endereco" character varying, "precoMatricula" float, "precoMensalidade" float, "site" character varying, "instagram" character varying, "facebook" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20221017215735"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-10-23 19:57:18.866531"], ["updated_at", "2022-10-23 19:57:18.866531"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2963435355795465600)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-10-23 16:57:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 58.9ms | Allocations: 455)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 17.9ms | Allocations: 708)
+  Rendered layout layouts/application.html.erb (Duration: 2021.2ms | Allocations: 9956)
+Completed 200 OK in 2423ms (Views: 2422.2ms | ActiveRecord: 0.0ms | Allocations: 12185)
+
+
+Started GET "/usuarios" for ::1 at 2022-10-23 16:57:43 -0300
+Processing by UsuariosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.6ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  ↳ app/views/usuarios/index.html.erb:6
+  Rendered usuarios/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1404)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.0ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 5639)
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 0.6ms | Allocations: 7318)
+
+
+Started GET "/" for ::1 at 2022-10-23 16:57:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.4ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4143)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4369)
+
+
+Started GET "/" for ::1 at 2022-10-23 17:21:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 5585)
+Completed 200 OK in 15ms (Views: 14.9ms | Allocations: 6440)
+
+
+Started GET "/images/fonts/Sprechen.ttf" for ::1 at 2022-10-23 17:21:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/fonts/Sprechen.ttf"):
+  
+Started GET "/images/fonts/Sprechen.ttf" for ::1 at 2022-10-23 17:22:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:16:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.3ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 4302)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 4544)
+
+
+Started GET "/images/fonts/Sprechen.ttf" for ::1 at 2022-10-23 18:16:32 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:17:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 120)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 5584)
+Completed 200 OK in 23ms (Views: 22.3ms | Allocations: 6444)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:18:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5571)
+Completed 200 OK in 13ms (Views: 13.0ms | Allocations: 6440)
+
+
+Started GET "/app/assets/fonts/Sprechen.ttf" for ::1 at 2022-10-23 18:18:04 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:19:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 5571)
+Completed 200 OK in 25ms (Views: 24.1ms | Allocations: 6440)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dumbbell_icon.png"):
+  
+Started GET "/app/assets/fonts/Sprechen.ttf" for ::1 at 2022-10-23 18:19:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:20:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 82.4ms | Allocations: 14355)
+Completed 200 OK in 86ms (Views: 85.4ms | Allocations: 15225)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dumbbell_icon.png"):
+  
+Started GET "/app/assets/fonts/Sprechen.ttf" for ::1 at 2022-10-23 18:20:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:22:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.2ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 6059)
+Completed 200 OK in 24ms (Views: 23.6ms | Allocations: 6928)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 18:22:23 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:26:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.4ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4634)
+Completed 200 OK in 10ms (Views: 9.9ms | Allocations: 4858)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 18:26:52 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:27:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 6060)
+Completed 200 OK in 23ms (Views: 22.4ms | Allocations: 6916)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:27:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.7ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 4614)
+Completed 200 OK in 13ms (Views: 13.0ms | Allocations: 4836)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:27:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.7ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4620)
+Completed 200 OK in 10ms (Views: 10.1ms | Allocations: 4828)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:27:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.5ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 4634)
+Completed 200 OK in 14ms (Views: 13.8ms | Allocations: 4843)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:28:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6066)
+Completed 200 OK in 17ms (Views: 16.6ms | Allocations: 6922)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:28:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.4ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4618)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 4840)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:28:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4620)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 4830)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:30:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 6056)
+Completed 200 OK in 13ms (Views: 12.5ms | Allocations: 6912)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:34:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 5610)
+Completed 200 OK in 15ms (Views: 14.4ms | Allocations: 6480)
+
+
+Started GET "/images/dumbbell_yellow_icon.png" for ::1 at 2022-10-23 18:34:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/dumbbell_yellow_icon.png"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:35:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 3.9ms | Allocations: 1264)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 6262)
+Completed 500 Internal Server Error in 18ms (Allocations: 7124)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand align-itens-start" href="#">
+      <%= image_tag "dumbbell_yellow_icon.png" id="logo" %>
+        <img id="logo" src="images/dumbbell_yellow_icon.png" width="30" height="30" class="d-inline-block align-top"
+          alt="">
+        We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+        <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+        <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+        <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <a class="navbar-brand align-itens-start" href="#">
+4:          <%= image_tag "dumbbell_yellow_icon.png" id="logo" %>
+5:            <img id="logo" src="images/dumbbell_yellow_icon.png" width="30" height="30" class="d-inline-block align-top"
+6:              alt="">
+7:            We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:        </a>
+9:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:          <span class="navbar-toggler-icon"></span>
+12:        </button>
+13:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:            <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:            <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:            <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:          </ul>
+21:          <form class="d-flex" role="search">
+22:            <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:            <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:          </form>
+25:        </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:36:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 5244)
+Completed 500 Internal Server Error in 28ms (Allocations: 6088)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand align-itens-start" href="#">
+      <%= image_tag "dumbbell_yellow_icon.png" id:"logo" %>
+        <img id="logo" src="images/dumbbell_yellow_icon.png" width="30" height="30" class="d-inline-block align-top"
+          alt="">
+        We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+        <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+        <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+        <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <a class="navbar-brand align-itens-start" href="#">
+4:          <%= image_tag "dumbbell_yellow_icon.png" id:"logo" %>
+5:            <img id="logo" src="images/dumbbell_yellow_icon.png" width="30" height="30" class="d-inline-block align-top"
+6:              alt="">
+7:            We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:        </a>
+9:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:          <span class="navbar-toggler-icon"></span>
+12:        </button>
+13:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:            <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:            <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:            <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:          </ul>
+21:          <form class="d-flex" role="search">
+22:            <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:            <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:          </form>
+25:        </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:36:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 639)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 6065)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 6935)
+
+
+Started GET "/images/dumbbell_yellow_icon.png" for ::1 at 2022-10-23 18:36:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/dumbbell_yellow_icon.png"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:37:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.0ms | Allocations: 649)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6070)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 6939)
+
+
+Started GET "/images/dumbbell_yellow_icon.png" for ::1 at 2022-10-23 18:37:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/dumbbell_yellow_icon.png"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:38:03 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.7ms | Allocations: 259)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 5248)
+Completed 500 Internal Server Error in 20ms (Allocations: 6091)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand align-itens-start" href="#">
+      <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class="d-inline-block align-top" %>
+        <img id="logo" src="images/dumbbell_yellow_icon.png" width="30" height="30" class="d-inline-block align-top"
+          alt="">
+        We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+        <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+        <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+        <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <a class="navbar-brand align-itens-start" href="#">
+4:          <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class="d-inline-block align-top" %>
+5:            <img id="logo" src="images/dumbbell_yellow_icon.png" width="30" height="30" class="d-inline-block align-top"
+6:              alt="">
+7:            We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:        </a>
+9:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:          <span class="navbar-toggler-icon"></span>
+12:        </button>
+13:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:            <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:            <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:            <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:          </ul>
+21:          <form class="d-flex" role="search">
+22:            <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:            <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:          </form>
+25:        </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '='
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '='
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '='
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '='
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:38:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 688)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 6119)
+Completed 200 OK in 25ms (Views: 24.3ms | Allocations: 6989)
+
+
+Started GET "/images/dumbbell_yellow_icon.png" for ::1 at 2022-10-23 18:38:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/dumbbell_yellow_icon.png"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:38:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 119)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.7ms | Allocations: 683)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 6109)
+Completed 200 OK in 27ms (Views: 26.4ms | Allocations: 6979)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:39:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 680)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 5724)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 6593)
+
+
+Started GET "/images/peakpx.jpg" for ::1 at 2022-10-23 18:39:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/peakpx.jpg"):
+  
+Started GET "/images/third_image.jpg" for ::1 at 2022-10-23 18:39:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/third_image.jpg"):
+  
+Started GET "/images/second_image.jpg" for ::1 at 2022-10-23 18:39:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/second_image.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:41:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 6127)
+Completed 500 Internal Server Error in 17ms (Allocations: 6973)
+
+
+  
+ActionView::Template::Error (The asset "images/peakpx.jpg" is not present in the asset pipeline.
+):
+    173:         </div>
+    174:         <div class="carousel-inner">
+    175:           <div class="carousel-item active">
+    176:             <%= image_tag "images/peakpx.jpg" , id:"first-image", class:"w-100" %>
+    177:             <h1 id="first-text-title">Encontre sua academia ideal.</h1>
+    178:             <h1 id="first-text-content">
+    179:               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  
+app/views/layouts/application.html.erb:176
+Started GET "/" for ::1 at 2022-10-23 18:41:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 3.0ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 6220)
+Completed 200 OK in 26ms (Views: 25.7ms | Allocations: 7090)
+
+
+Started GET "/images/second_image.jpg" for ::1 at 2022-10-23 18:41:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/second_image.jpg"):
+  
+Started GET "/images/third_image.jpg" for ::1 at 2022-10-23 18:41:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/third_image.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-23 18:43:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 118)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 3.3ms | Allocations: 682)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 7180)
+Completed 200 OK in 30ms (Views: 29.9ms | Allocations: 8050)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:46:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 781)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 7257)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 8126)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:46:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 5841)
+Completed 200 OK in 12ms (Views: 12.1ms | Allocations: 6063)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:47:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.5ms | Allocations: 276)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 5376)
+Completed 500 Internal Server Error in 11ms (Allocations: 6205)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <%= link_to , root_path, class:'navbar-brand align-itens-start'%>
+      <a class="navbar-brand align-itens-start" href="#">
+        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+          %>
+          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+          <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+          <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+          <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <%= link_to , root_path, class:'navbar-brand align-itens-start'%>
+4:          <a class="navbar-brand align-itens-start" href="#">
+5:            <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+6:              %>
+7:              We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:          </a>
+9:          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:            <span class="navbar-toggler-icon"></span>
+12:          </button>
+13:          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:              <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:              <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:              <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:            </ul>
+21:            <form class="d-flex" role="search">
+22:              <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:              <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:            </form>
+25:          </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:3: syntax error, unexpected label, expecting '='
+app/views/welcome/_header.html.erb:3: syntax error, unexpected label, expecting '='
+app/views/welcome/_header.html.erb:3: syntax error, unexpected label, expecting '='
+app/views/welcome/_header.html.erb:3: syntax error, unexpected label, expecting '='
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:47:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 779)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 7266)
+Completed 200 OK in 13ms (Views: 13.0ms | Allocations: 8136)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:48:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 680)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 7167)
+Completed 200 OK in 14ms (Views: 13.9ms | Allocations: 8036)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:49:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.0ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 5409)
+Completed 500 Internal Server Error in 20ms (Allocations: 6252)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+      <%= link_to '' , root_path, class:'navbar-brand align-itens-start' <%=image_tag "dumbbell_yellow_icon.png" ,
+        id:"logo", width:"30", height:"30", class:"d-inline-block align-top" %>%>
+        <a class="navbar-brand align-itens-start" href="#">
+          <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block
+            align-top" %>
+            We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+            <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+            <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+            <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+4:          <%= link_to '' , root_path, class:'navbar-brand align-itens-start' <%=image_tag "dumbbell_yellow_icon.png" ,
+5:            id:"logo", width:"30", height:"30", class:"d-inline-block align-top" %>%>
+6:            <a class="navbar-brand align-itens-start" href="#">
+7:              <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block
+8:                align-top" %>
+9:                We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+10:            </a>
+11:            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+12:              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+13:              <span class="navbar-toggler-icon"></span>
+14:            </button>
+15:            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+16:              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+17:    
+18:                <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+19:                <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+20:                <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+21:    
+22:              </ul>
+23:              <form class="d-flex" role="search">
+24:                <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+25:                <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+26:              </form>
+27:            </div>
+28:      </div>
+29:    </nav>
+  
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting ')'
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting ')'
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting ')'
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:49:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 837)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 7334)
+Completed 200 OK in 27ms (Views: 26.5ms | Allocations: 8204)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:51:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.5ms | Allocations: 316)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 5417)
+Completed 500 Internal Server Error in 12ms (Allocations: 6260)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+      <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+
+        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+          %>
+          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+          <% end %>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+                <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+                <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+                <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+4:          <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+5:    
+6:            <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+7:              %>
+8:              We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+9:              <% end %>
+10:                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+11:                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+12:                  aria-label="Toggle navigation">
+13:                  <span class="navbar-toggler-icon"></span>
+14:                </button>
+15:                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+16:                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+17:    
+18:                    <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+19:                    <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+20:                    <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+21:    
+22:                  </ul>
+23:                  <form class="d-flex" role="search">
+24:                    <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+25:                    <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+26:                  </form>
+27:                </div>
+28:      </div>
+29:    </nav>
+  
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:31: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:52:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 5403)
+Completed 500 Internal Server Error in 19ms (Allocations: 6247)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+
+    <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+          %>
+          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+    <% end %>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+          <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+          <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+          <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:    
+4:        <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+5:            <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+6:              %>
+7:              We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:        <% end %>
+9:          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:            <span class="navbar-toggler-icon"></span>
+12:          </button>
+13:          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:              <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:              <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:              <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:            </ul>
+21:            <form class="d-flex" role="search">
+22:              <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:              <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:            </form>
+25:          </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:52:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 780)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 7269)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 8139)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:53:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.4ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 5385)
+Completed 500 Internal Server Error in 11ms (Allocations: 6228)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+
+    <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+      <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top" %>
+        We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+            <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+            <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+            <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+  </div>
+</nav>
+<% end %>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:    
+4:        <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+5:          <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top" %>
+6:            We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+7:    
+8:            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+9:              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+10:              <span class="navbar-toggler-icon"></span>
+11:            </button>
+12:            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+13:              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+14:    
+15:                <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+16:                <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+17:                <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+18:    
+19:              </ul>
+20:              <form class="d-flex" role="search">
+21:                <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+22:                <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+23:              </form>
+24:            </div>
+25:      </div>
+26:    </nav>
+27:    <% end %>
+  
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/welcome/_header.html.erb:29: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:53:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 779)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 7266)
+Completed 200 OK in 17ms (Views: 16.6ms | Allocations: 8136)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 778)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 7253)
+Completed 200 OK in 17ms (Views: 16.9ms | Allocations: 8122)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 5841)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 6063)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.9ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 5845)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 6053)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.1ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 5831)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 6039)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 5843)
+Completed 200 OK in 17ms (Views: 16.7ms | Allocations: 6051)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.0ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 5831)
+Completed 200 OK in 12ms (Views: 11.8ms | Allocations: 6039)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.0ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5839)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 6047)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:58:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 778)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 7265)
+Completed 200 OK in 20ms (Views: 20.2ms | Allocations: 8121)
+
+
+Started GET "/" for ::1 at 2022-10-23 18:59:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 119)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.9ms | Allocations: 368)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 5498)
+Completed 500 Internal Server Error in 19ms (Allocations: 6341)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <%= link_to '' , academia#index, class:'navbar-brand align-itens-start'%>
+      <a class="navbar-brand align-itens-start" href="#">
+        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+          %>
+          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+          <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+          <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+          <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <%= link_to '' , academia#index, class:'navbar-brand align-itens-start'%>
+4:          <a class="navbar-brand align-itens-start" href="#">
+5:            <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+6:              %>
+7:              We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:          </a>
+9:          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:            <span class="navbar-toggler-icon"></span>
+12:          </button>
+13:          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:              <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:              <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:              <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:            </ul>
+21:            <form class="d-flex" role="search">
+22:              <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:              <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:            </form>
+25:          </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 18:59:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.9ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 7683)
+Completed 500 Internal Server Error in 15ms (Allocations: 7895)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+  <div class="container-fluid">
+    <%= link_to '' , academia#index, class:'navbar-brand align-itens-start'%>
+      <a class="navbar-brand align-itens-start" href="#">
+        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+          %>
+          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+          <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+          <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+          <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+  </div>
+</nav>
+):
+1:    <nav id="navbar-main" class="navbar navbar-expand fixed-top">
+2:      <div class="container-fluid">
+3:        <%= link_to '' , academia#index, class:'navbar-brand align-itens-start'%>
+4:          <a class="navbar-brand align-itens-start" href="#">
+5:            <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+6:              %>
+7:              We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+8:          </a>
+9:          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+10:            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+11:            <span class="navbar-toggler-icon"></span>
+12:          </button>
+13:          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+14:            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+15:    
+16:              <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+17:              <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+18:              <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+19:    
+20:            </ul>
+21:            <form class="d-flex" role="search">
+22:              <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+23:              <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
+24:            </form>
+25:          </div>
+26:      </div>
+27:    </nav>
+  
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected '<', expecting ')'
+app/views/welcome/_header.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:7: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/views/welcome/_header.html.erb:8: unknown regexp option - a
+app/views/welcome/_header.html.erb:9: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:10: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:11: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:12: unknown regexp options - btt
+app/views/welcome/_header.html.erb:13: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:14: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:16: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:17: unknown regexp option - a
+app/views/welcome/_header.html.erb:18: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:18: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:20: unknown regexp option - l
+app/views/welcome/_header.html.erb:21: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:21: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:22: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected `class', expecting ')'
+app/views/welcome/_header.html.erb:23: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/_header.html.erb:24: unknown regexp options - fr
+app/views/welcome/_header.html.erb:25: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:26: unknown regexp options - dv
+app/views/welcome/_header.html.erb:27: syntax error, unexpected '<'
+app/views/welcome/_header.html.erb:29: unterminated regexp meets end of file
+app/views/welcome/_header.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+app/views/layouts/application.html.erb:163
+Started GET "/" for ::1 at 2022-10-23 19:02:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 782)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 7293)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 8150)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:03:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 117)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 7264)
+Completed 200 OK in 26ms (Views: 25.4ms | Allocations: 8133)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:05:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 7257)
+Completed 200 OK in 17ms (Views: 16.8ms | Allocations: 8126)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5831)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 6053)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.9ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 5835)
+Completed 200 OK in 10ms (Views: 9.8ms | Allocations: 6043)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7251)
+Completed 200 OK in 13ms (Views: 12.7ms | Allocations: 8106)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 3.5ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 7259)
+Completed 200 OK in 15ms (Views: 14.6ms | Allocations: 8128)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 5845)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 6067)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5843)
+Completed 200 OK in 11ms (Views: 11.1ms | Allocations: 6051)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:05:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 784)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 7268)
+Completed 200 OK in 19ms (Views: 18.6ms | Allocations: 8124)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:08:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 117)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.7ms | Allocations: 779)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 7269)
+Completed 200 OK in 23ms (Views: 22.3ms | Allocations: 8139)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:08:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.7ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5840)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 6062)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:08:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 5839)
+Completed 200 OK in 15ms (Views: 14.7ms | Allocations: 6047)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:09:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 7265)
+Completed 200 OK in 16ms (Views: 15.9ms | Allocations: 8120)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:09:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:11:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.2ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 7256)
+Completed 200 OK in 19ms (Views: 18.5ms | Allocations: 8125)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:11:26 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:14:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 7253)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 8122)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:14:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:15:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 779)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 7265)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 8135)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:17:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 7259)
+Completed 200 OK in 24ms (Views: 23.5ms | Allocations: 8128)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:17:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:20:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 5843)
+Completed 200 OK in 25ms (Views: 24.5ms | Allocations: 6066)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:20:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:21:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 777)
+  Rendered layout layouts/application.html.erb (Duration: 83.1ms | Allocations: 7750)
+Completed 200 OK in 86ms (Views: 85.2ms | Allocations: 8606)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:21:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:27:47 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 791)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 8895)
+Completed 200 OK in 25ms (Views: 24.5ms | Allocations: 9765)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:27:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:27:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 5851)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 6073)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:27:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:27:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 5849)
+Completed 200 OK in 62ms (Views: 61.3ms | Allocations: 6057)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:27:52 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 0.8ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5859)
+Completed 200 OK in 11ms (Views: 11.0ms | Allocations: 6068)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:11 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5868)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 6077)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:13 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5863)
+Completed 200 OK in 17ms (Views: 16.7ms | Allocations: 6071)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.0ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 5874)
+Completed 200 OK in 10ms (Views: 10.0ms | Allocations: 6083)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 5858)
+Completed 200 OK in 18ms (Views: 17.6ms | Allocations: 6067)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 5859)
+Completed 200 OK in 21ms (Views: 21.2ms | Allocations: 6068)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5873)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 6082)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:28:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:28:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.1ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 7177)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 7385)
+
+
+Started GET "/" for ::1 at 2022-10-23 19:29:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 789)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 8856)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 9711)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:29:24 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
+Started GET "/" for ::1 at 2022-10-23 19:31:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 116)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+Skipping vite build. Watched files have not changed since the last build at 2022-10-17 18:37:34
+  Rendered welcome/_header.html.erb (Duration: 2.7ms | Allocations: 781)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 7048)
+Completed 200 OK in 23ms (Views: 22.2ms | Allocations: 7919)
+
+
+Started GET "/Sprechen.ttf" for ::1 at 2022-10-23 19:31:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/Sprechen.ttf"):
+  
