@@ -1,0 +1,31 @@
+<h1>Teste</h1>
+<br>
+<br>
+<br><br>
+<br><br><br><br><br>
+
+<%= form_with model: @user, url: registrar_se_path do |form|%>
+
+  <form>
+    <div class="mb-3">
+      <%= form.label :email, class:  "form-label text-light"%>
+      <%= form.text_field :email, class: "form-control" %>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <%= form.label :password, class:  "form-label text-light"%>
+      <%= form.password_field :password, class: "form-control" %>
+    </div>
+    <div class="mb-3">
+      <%= form.label :password_confirmation, class:  "form-label text-light"%>
+      <%= form.password_field :password_confirmation, class: "form-control" %>
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <div class="mb-3">
+      <%= form.submit class:"btn btn-primary" %>
+    </div>
+  </form>
+<% end %>
