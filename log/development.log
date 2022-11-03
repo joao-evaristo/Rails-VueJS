@@ -8246,3 +8246,1915 @@ Skipping vite build. Watched files have not changed since the last build at 2022
 Completed 200 OK in 31ms (Views: 29.0ms | Allocations: 11707)
 
 
+Started GET "/" for ::1 at 2022-11-03 09:06:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 193.1ms | Allocations: 10033)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 5.0ms | Allocations: 2044)
+  Rendered layout layouts/application.html.erb (Duration: 253.9ms | Allocations: 19105)
+Completed 200 OK in 278ms (Views: 266.7ms | ActiveRecord: 0.0ms | Allocations: 22884)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 09:07:20 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 74.2ms | Allocations: 7256)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 1327)
+  Rendered layout layouts/application.html.erb (Duration: 83.4ms | Allocations: 14039)
+Completed 200 OK in 148ms (Views: 84.4ms | ActiveRecord: 35.5ms | Allocations: 31180)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:07:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2557)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 8919)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 9363)
+
+
+Started GET "/login" for ::1 at 2022-11-03 09:07:25 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 4572)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1311)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 10789)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 11909)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 09:07:29 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1114)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7620)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 8068)
+
+
+Started GET "/login" for ::1 at 2022-11-03 09:07:31 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3617)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 9735)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 10103)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:19:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2555)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 8915)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 9284)
+
+
+Started GET "/login" for ::1 at 2022-11-03 09:19:48 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 3617)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1287)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 9735)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 10101)
+
+
+Started POST "/login" for ::1 at 2022-11-03 09:19:57 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"joao.evaristo@unifesp.br", "password"=>"[FILTERED]", "commit"=>"Entrar"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "joao.evaristo@unifesp.br"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3800)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 9959)
+Completed 422 Unprocessable Entity in 337ms (Views: 14.8ms | ActiveRecord: 7.2ms | Allocations: 15496)
+
+
+Started POST "/login" for ::1 at 2022-11-03 09:20:03 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"joao.evaristo@unifesp.br", "password"=>"[FILTERED]", "commit"=>"Entrar"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "joao.evaristo@unifesp.br"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 329ms (ActiveRecord: 0.4ms | Allocations: 941)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:20:04 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2572)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 1448)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 9084)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 10055)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:20:25 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3050)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.2ms | Allocations: 1959)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10655)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.3ms | Allocations: 12279)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:20:53 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3032)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.2ms | Allocations: 1958)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 10618)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.3ms | Allocations: 12362)
+
+
+Started DELETE "/logout" for ::1 at 2022-11-03 09:20:57 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 933)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:20:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 1300)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 8918)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 9303)
+
+
+Started GET "/login" for ::1 at 2022-11-03 09:21:10 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4454)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 1311)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 10670)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 11609)
+
+
+Started POST "/login" for ::1 at 2022-11-03 09:21:14 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"joao.evaristo@unifesp.br", "password"=>"[FILTERED]", "commit"=>"Entrar"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "joao.evaristo@unifesp.br"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 331ms (ActiveRecord: 0.3ms | Allocations: 952)
+
+
+Started GET "/" for ::1 at 2022-11-03 09:21:15 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 1431)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 9049)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.3ms | Allocations: 9913)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2963435355795465600)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (18.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(2963435355795465600)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2963435355795465600)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddColumncToUsers (20221103141046)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.0ms)[0m  [1m[35mALTER TABLE "users" ADD "name" character varying[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "username" character varying[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "age" integer[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "phone_number" character varying[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20221103141046"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(2963435355795465600)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-11-03 11:29:03 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 8874)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.1ms | Allocations: 2234)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 18106)
+Completed 200 OK in 72ms (Views: 29.8ms | ActiveRecord: 7.0ms | Allocations: 42770)
+
+
+Started DELETE "/logout" for ::1 at 2022-11-03 11:29:05 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1189)
+
+
+Started GET "/" for ::1 at 2022-11-03 11:29:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2672)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 1312)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 9120)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 9525)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:29:07 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 7574)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1327)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 14356)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 15532)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:30:05 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2325)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1779)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 9997)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 11245)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:30:38 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2290)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 14.7ms | Allocations: 1780)
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 9947)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms | Allocations: 11176)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:30:45 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2292)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 1782)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 9962)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 11181)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:30:51 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2290)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1781)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 9954)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 11199)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:31:13 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2290)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1778)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 9944)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 11158)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:31:52 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2291)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.8ms | Allocations: 1775)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 9954)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 11172)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:35:58 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2299)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1776)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 9951)
+Completed 200 OK in 19ms (Views: 17.8ms | Allocations: 11158)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:36:27 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2298)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.8ms | Allocations: 1775)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 9949)
+Completed 200 OK in 26ms (Views: 24.5ms | Allocations: 11154)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:36:29 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1608)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1287)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 8111)
+Completed 200 OK in 19ms (Views: 18.5ms | Allocations: 8557)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:36:33 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1608)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1287)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 8111)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 8493)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:36:34 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1608)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1287)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 8111)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 8503)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 11:36:49 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2298)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1775)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 9949)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 11104)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:36:50 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameters: :name, :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb3382369d0>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4325)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 10885)
+Completed 200 OK in 37ms (Views: 22.8ms | ActiveRecord: 5.5ms | Allocations: 15069)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:11 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb3403a2b40>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 4365)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1556)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 11339)
+Completed 200 OK in 37ms (Views: 18.8ms | ActiveRecord: 5.5ms | Allocations: 19184)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:17 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00005582c7512558>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 4272)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1322)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 10902)
+Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 11819)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:21 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00005582c7ead3d8>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 10756)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 11533)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:25 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb3444a41e8>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.1ms | Allocations: 1317)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 10759)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 11539)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:27 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb3445ff740>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.3ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1318)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 10775)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 11555)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:29 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb350852068>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 10754)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 11537)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:31 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb33c0ac2c8>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.1ms | Allocations: 1315)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 10754)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 11541)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:33 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb344e1a7e0>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 10753)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 11530)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:43:34 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb33820d0f8>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4193)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 10753)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 11528)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:50:23 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 4ms (Allocations: 1367)
+
+
+  
+ArgumentError (The provided regular expression is using multiline anchors (^ or $), which may present a security risk. Did you mean to use \A and \z, or forgot to add the :multiline => true option?):
+  
+app/models/user.rb:5:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+app/controllers/registrations_controller.rb:7:in `create'
+Started POST "/cadastro" for ::1 at 2022-11-03 11:52:06 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb350752b68>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 5970)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1560)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 12968)
+Completed 200 OK in 44ms (Views: 23.6ms | ActiveRecord: 5.1ms | Allocations: 21008)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:52:38 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb344da43b0>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5919)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1557)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 12895)
+Completed 200 OK in 36ms (Views: 21.1ms | ActiveRecord: 5.3ms | Allocations: 18287)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 11:59:04 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb3481ccf70>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 7105)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1782)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 14735)
+Completed 200 OK in 37ms (Views: 24.5ms | ActiveRecord: 5.6ms | Allocations: 19322)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:01:38 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb344ecd430>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 20.4ms | Allocations: 8635)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1790)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 16350)
+Completed 200 OK in 37ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 18029)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:02:27 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb33830ded0>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 17.2ms | Allocations: 7276)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.5ms | Allocations: 1790)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 14991)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 16668)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:05:20 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb34047aa90>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 6099)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6179)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 7844)
+
+
+  
+ActionView::Template::Error (undefined method `telephone' for nil:NilClass):
+    31:   </div>
+    32:   <div class="mb-3">
+    33:     <%= form.label :phone_number, class:  "form-label text-light"%>
+    34:     <%= form.telephone_field :phone_number, class: "form-control",  placeholder: "20", value: number_to_phone(@my_variable.telephone, area_code: true, extension: 555)%>
+    35:   </div>
+    36:   <div class="mb-3">
+    37:     <%= form.label :password, class:  "form-label text-light"%>
+  
+app/views/registrations/new.html.erb:34
+app/views/registrations/new.html.erb:7
+app/controllers/registrations_controller.rb:12:in `create'
+Started POST "/cadastro" for ::1 at 2022-11-03 12:08:04 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb34026a980>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 28.6ms | Allocations: 7086)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 14.8ms | Allocations: 1784)
+  Rendered layout layouts/application.html.erb (Duration: 64.0ms | Allocations: 14738)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.0ms | Allocations: 16432)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:08:51 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb340598d28>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 17.2ms | Allocations: 7081)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.2ms | Allocations: 1784)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 14733)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 16404)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:08:58 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"123213213132", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameters: :username, :age, :phone_number. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00005582c80e2e50>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"123213213132", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 13.7ms | Allocations: 6301)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 12861)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 13781)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:51:13 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"123213213132", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameters: :username, :age, :phone_number. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb344629d38>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"123213213132", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 7044)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.0ms | Allocations: 1780)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 14672)
+Completed 200 OK in 36ms (Views: 23.8ms | ActiveRecord: 5.0ms | Allocations: 19232)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:52:02 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameters: :username, :age, :phone_number. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb3509b4528>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.9ms | Allocations: 6277)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 12837)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 13757)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 12:52:44 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"jp", "email"=>"joao.evaristo@gmail.com", "age"=>"20", "phone_number"=>"(12)999999999", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameters: :username, :age, :phone_number. Context: { controller: RegistrationsController, action: create, request: #<ActionDispatch::Request:0x00007fb338057f60>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"jp", "email"=>"joao.evaristo@gmail.com", "age"=>"20", "phone_number"=>"(12)999999999", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"registrations", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Create (3.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at", "name", "username", "age", "phone_number") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "joao.evaristo@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2022-11-03 15:52:44.422058"], ["updated_at", "2022-11-03 15:52:44.422058"], ["name", "João Pedro"], ["username", nil], ["age", nil], ["phone_number", nil]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 310ms (ActiveRecord: 4.8ms | Allocations: 2896)
+
+
+Started GET "/" for ::1 at 2022-11-03 12:52:44 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3046)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 1505)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 9749)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.7ms | Allocations: 11808)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started DELETE "/logout" for ::1 at 2022-11-03 12:53:43 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms | Allocations: 1099)
+
+
+Started GET "/" for ::1 at 2022-11-03 12:53:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2655)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1308)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 9079)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 9499)
+
+
+Started GET "/login" for ::1 at 2022-11-03 12:53:45 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 10.2ms | Allocations: 4556)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1311)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 10772)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 11787)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 12:53:49 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2172)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 1309)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 8753)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 9205)
+
+
+  [1m[36mUser Delete All (1.8ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/cadastro" for ::1 at 2022-11-03 13:02:07 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2341)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1557)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 9369)
+Completed 200 OK in 43ms (Views: 23.8ms | ActiveRecord: 5.3ms | Allocations: 16696)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 13:03:33 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"jp", "email"=>"joao.evaristo@gmail.com", "age"=>"20", "phone_number"=>"(12)999999999", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at", "name", "username", "age", "phone_number") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "joao.evaristo@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2022-11-03 16:03:34.145454"], ["updated_at", "2022-11-03 16:03:34.145454"], ["name", "João Pedro"], ["username", "jp"], ["age", 20], ["phone_number", "(12)999999999"]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 307ms (ActiveRecord: 2.2ms | Allocations: 2698)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:03:34 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2720)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1508)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 9442)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 0.8ms | Allocations: 11382)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/" for ::1 at 2022-11-03 13:04:12 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3035)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.9ms | Allocations: 1956)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 10619)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.3ms | Allocations: 12388)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:09:59 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2703)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1510)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 9412)
+Completed 200 OK in 31ms (Views: 13.6ms | ActiveRecord: 7.8ms | Allocations: 15179)
+
+
+Started DELETE "/logout" for ::1 at 2022-11-03 13:10:01 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms | Allocations: 1078)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:10:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2664)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1308)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 9088)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 9502)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:10:03 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 2954)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 1318)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 9707)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 10857)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 13:10:26 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"\#$$///", "email"=>"joao.evaristo@gmail.com", "age"=>"20", "phone_number"=>"(12)999999999", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2874)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 9434)
+Completed 200 OK in 314ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 10504)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 13:10:39 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"jp", "email"=>"joao.evaristo@gmail.com", "age"=>"20", "phone_number"=>"(12)999999999", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3176)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1314)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 9736)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 10448)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 13:10:47 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"jp", "email"=>"joao.evaristo@gmail.com", "age"=>"20", "phone_number"=>"(12)999999999", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at", "name", "username", "age", "phone_number") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "joao.evaristo@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2022-11-03 16:10:47.688158"], ["updated_at", "2022-11-03 16:10:47.688158"], ["name", "João Pedro"], ["username", "jp"], ["age", 20], ["phone_number", "(12)999999999"]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 314ms (ActiveRecord: 1.6ms | Allocations: 2396)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:10:47 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2562)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1429)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 9055)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.4ms | Allocations: 9922)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started DELETE "/logout" for ::1 at 2022-11-03 13:11:15 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms | Allocations: 827)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:11:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 1304)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 8922)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 9297)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:11:17 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4494)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1315)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 10723)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 11725)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:13:18 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 4528)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1693)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 11576)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 12775)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:13:26 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2897)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 1269)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 9598)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 10605)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:13:28 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2111)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 8566)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 9012)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:13:29 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3662)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 9729)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 10095)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:13:33 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2111)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 8566)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 8948)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:18:46 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.2ms | Allocations: 7129)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1689)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 14167)
+Completed 200 OK in 24ms (Views: 23.2ms | Allocations: 15346)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:18:53 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4515)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.3ms | Allocations: 1255)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10675)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 11653)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:18:58 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.0ms | Allocations: 5767)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 11834)
+Completed 200 OK in 27ms (Views: 26.2ms | Allocations: 12273)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:22:33 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 7596)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1689)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 14634)
+Completed 200 OK in 27ms (Views: 25.8ms | Allocations: 15799)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:45:49 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.7ms | Allocations: 9084)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 9.2ms | Allocations: 1693)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 16141)
+Completed 200 OK in 31ms (Views: 30.1ms | Allocations: 17344)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:46:47 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 6499)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1693)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 13547)
+Completed 200 OK in 26ms (Views: 25.2ms | Allocations: 14750)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:47:03 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 6474)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1689)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 13512)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 14723)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 13:47:43 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Alberto", "username"=>"alberto", "email"=>"asdsda@gmail.com", "age"=>"45", "phone_number"=>"12", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Criar conta"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "created_at", "updated_at", "name", "username", "age", "phone_number") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "asdsda@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2022-11-03 16:47:43.753925"], ["updated_at", "2022-11-03 16:47:43.753925"], ["name", "Alberto"], ["username", "alberto"], ["age", 45], ["phone_number", "12"]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 319ms (ActiveRecord: 7.2ms | Allocations: 5419)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:47:43 -0300
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3041)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 1444)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 9669)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 11230)
+
+
+Started DELETE "/logout" for ::1 at 2022-11-03 13:48:09 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `set_current_user'
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 955)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:48:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1254)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 8872)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 9257)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:48:23 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 5339)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 11.6ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 11406)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 11798)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:48:56 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 6443)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.1ms | Allocations: 1689)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 13481)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 14648)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:49:59 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4519)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 1255)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10679)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 11669)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:52:11 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4516)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.2ms | Allocations: 1703)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 11584)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 12791)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:55:50 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 4545)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 4.5ms | Allocations: 1745)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 11648)
+Completed 200 OK in 33ms (Views: 31.6ms | Allocations: 12838)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:55:54 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.4ms | Allocations: 6464)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1285)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 12660)
+Completed 200 OK in 25ms (Views: 24.4ms | Allocations: 13671)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:56:26 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 6443)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 16.3ms | Allocations: 4254)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 15643)
+Completed 500 Internal Server Error in 36ms (Allocations: 16851)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `cadastro_path_path' for #<ActionView::Base:0x00000000012368>
+Did you mean?  cadastro_path):
+    30:             <%= link_to 'Login' , login_path, class:'nav-item nav-link', id:'nav_login' %>
+    31:           </li>
+    32:         <% end %>
+    33:         <% if current_page?(login_path) ||  current_page?(cadastro_path_path)%>
+    34:         AAAAAAAAAAAAAAAa
+    35:         <% end %>
+    36:       </ul>
+  
+app/views/welcome/_header.html.erb:33
+app/views/layouts/application.html.erb:44
+Started GET "/cadastro" for ::1 at 2022-11-03 13:56:35 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 6470)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.2ms | Allocations: 1759)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 13587)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 14798)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:58:08 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 14.9ms | Allocations: 6442)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 4.1ms | Allocations: 1737)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 13528)
+Completed 200 OK in 36ms (Views: 34.3ms | Allocations: 14729)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:58:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3041)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1325)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 9550)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 10518)
+
+
+Started GET "/" for ::1 at 2022-11-03 13:59:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 3030)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.7ms | Allocations: 1798)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 10456)
+Completed 200 OK in 24ms (Views: 23.5ms | Allocations: 11660)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 13:59:53 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 6463)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1281)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 12655)
+Completed 200 OK in 23ms (Views: 21.9ms | Allocations: 13672)
+
+
+Started GET "/login" for ::1 at 2022-11-03 13:59:55 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 4516)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1298)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 10719)
+Completed 200 OK in 28ms (Views: 26.6ms | Allocations: 11714)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:01:09 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 4516)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 4.0ms | Allocations: 1755)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 11623)
+Completed 200 OK in 31ms (Views: 29.9ms | Allocations: 12824)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:01:11 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 6441)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1281)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 12627)
+Completed 200 OK in 26ms (Views: 24.9ms | Allocations: 13642)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:01:12 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3662)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1274)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 9764)
+Completed 200 OK in 23ms (Views: 22.6ms | Allocations: 10191)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:01:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3046)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.8ms | Allocations: 1328)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 9565)
+Completed 200 OK in 26ms (Views: 25.0ms | Allocations: 10507)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:01:15 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3716)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 1277)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 9826)
+Completed 200 OK in 24ms (Views: 23.5ms | Allocations: 10252)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:02:08 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4516)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 3.5ms | Allocations: 1738)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 11603)
+Completed 200 OK in 25ms (Views: 23.7ms | Allocations: 12746)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:02:10 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3655)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1256)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 9739)
+Completed 200 OK in 25ms (Views: 23.8ms | Allocations: 10157)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:02:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 3046)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1346)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 9596)
+Completed 200 OK in 21ms (Views: 20.7ms | Allocations: 10541)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:02:16 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3726)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1256)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 9816)
+Completed 200 OK in 25ms (Views: 24.0ms | Allocations: 10226)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:02:17 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3656)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.6ms | Allocations: 1256)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 9740)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 10110)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:02:19 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 14.5ms | Allocations: 6446)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.2ms | Allocations: 1298)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 12649)
+Completed 200 OK in 33ms (Views: 31.4ms | Allocations: 13627)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:05:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1282)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 8900)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 9318)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:06:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3030)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1755)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 10413)
+Completed 200 OK in 19ms (Views: 18.0ms | Allocations: 11558)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:06:47 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 6446)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1282)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 12641)
+Completed 200 OK in 23ms (Views: 22.3ms | Allocations: 13643)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:06:48 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 4533)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.4ms | Allocations: 1302)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 10745)
+Completed 200 OK in 26ms (Views: 25.1ms | Allocations: 11738)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:07:06 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4516)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.7ms | Allocations: 1610)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 11475)
+Completed 200 OK in 21ms (Views: 19.7ms | Allocations: 12678)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:07:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 3041)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.9ms | Allocations: 1351)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 9579)
+Completed 200 OK in 24ms (Views: 22.9ms | Allocations: 10553)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:07:11 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 6471)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1204)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 12591)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 13615)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:07:14 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3680)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.2ms | Allocations: 1160)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 9673)
+Completed 200 OK in 22ms (Views: 21.6ms | Allocations: 10098)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:07:15 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 5286)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1177)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 11291)
+Completed 200 OK in 27ms (Views: 25.9ms | Allocations: 11690)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:07:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2566)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 1282)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 8912)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 9284)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:07:33 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 5286)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1177)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 11291)
+Completed 200 OK in 27ms (Views: 26.2ms | Allocations: 11687)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:07:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.3ms | Allocations: 1283)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 8901)
+Completed 200 OK in 21ms (Views: 20.2ms | Allocations: 9277)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:07:41 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3656)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.1ms | Allocations: 1161)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 9653)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 10022)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:08:50 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 11.1ms | Allocations: 5303)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1181)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 11317)
+Completed 200 OK in 27ms (Views: 26.1ms | Allocations: 11695)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:10:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2555)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1282)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 8901)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 9291)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:11:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2566)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 8925)
+Completed 200 OK in 21ms (Views: 20.5ms | Allocations: 9282)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/cadastro" for ::1 at 2022-11-03 14:28:22 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 5699)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1433)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 12057)
+Completed 200 OK in 34ms (Views: 17.4ms | ActiveRecord: 5.0ms | Allocations: 19582)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 14:28:29 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"jp", "email"=>"", "age"=>"", "phone_number"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Criar conta"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 27.1ms | Allocations: 11141)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1279)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 17311)
+Completed 200 OK in 49ms (Views: 39.5ms | ActiveRecord: 2.1ms | Allocations: 20560)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 14:28:40 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "username"=>"", "email"=>"", "age"=>"", "phone_number"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Criar conta"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", ""], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 30.1ms | Allocations: 11973)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1280)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 18114)
+Completed 200 OK in 50ms (Views: 42.2ms | ActiveRecord: 0.8ms | Allocations: 20530)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 14:31:56 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"jp", "email"=>"teste@gmail.com", "age"=>"20", "phone_number"=>"123213213132", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Criar conta"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 6366)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.8ms | Allocations: 1522)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 12815)
+Completed 200 OK in 342ms (Views: 18.9ms | ActiveRecord: 8.2ms | Allocations: 20423)
+
+
+Started POST "/cadastro" for ::1 at 2022-11-03 14:52:00 -0300
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"João Pedro", "username"=>"\"SQWL\"", "email"=>"teste@gmail.com", "age"=>"20", "phone_number"=>"123213213132", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Criar conta"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "\"SQWL\""], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mCACHE User Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "\"SQWL\""], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "teste@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."phone_number" = $1 LIMIT $2[0m  [["phone_number", "123213213132"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/registrations_controller.rb:8:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 6376)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 1522)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 12833)
+Completed 200 OK in 346ms (Views: 19.2ms | ActiveRecord: 8.2ms | Allocations: 25193)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:52:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2715)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.1ms | Allocations: 1348)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 9261)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 10291)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:52:23 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 5391)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.6ms | Allocations: 1188)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 11430)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 11874)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:52:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2555)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.7ms | Allocations: 1284)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 8903)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 9265)
+
+
+Started GET "/login" for ::1 at 2022-11-03 14:52:27 -0300
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3990)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.2ms | Allocations: 1183)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 10081)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 11097)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:53:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2554)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.7ms | Allocations: 1282)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 8905)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 9323)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:53:42 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 15.1ms | Allocations: 5325)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.4ms | Allocations: 1181)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 11349)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 11749)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:53:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2570)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.5ms | Allocations: 1282)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 8916)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 9284)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:55:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3040)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.7ms | Allocations: 1779)
+  Rendered welcome/_footer.html.erb (Duration: 1.0ms | Allocations: 536)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 10694)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 11845)
+
+
+Started GET "/cadastro" for ::1 at 2022-11-03 14:55:33 -0300
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering registrations/new.html.erb within layouts/application
+  Rendered registrations/new.html.erb within layouts/application (Duration: 10.2ms | Allocations: 6454)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1200)
+  Rendered welcome/_footer.html.erb (Duration: 0.3ms | Allocations: 410)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 12622)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 13636)
+
+
+Started GET "/" for ::1 at 2022-11-03 14:55:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2566)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+Skipping vite build. Watched files have not changed since the last build at 2022-10-26 09:42:42
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1282)
+  Rendered welcome/_footer.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 8973)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 9398)
+
+
