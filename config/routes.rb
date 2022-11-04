@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :academia
+  resources :gyms
   resources :usuarios
   get "welcome/index"
   get "welcome/login"

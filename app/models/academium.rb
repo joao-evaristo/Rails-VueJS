@@ -1,2 +1,0 @@
-class Academium < ApplicationRecord
-end
